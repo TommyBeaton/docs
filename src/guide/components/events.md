@@ -196,7 +196,7 @@ If you are using TypeScript with `<script setup>`, it's also possible to declare
 ```vue
 <script setup lang="ts">
 const emit = defineEmits<{
-  (e: 'change', id: number): void
+  (e: 'change', id: number): void,
   (e: 'update', value: string): void
 }>()
 </script>
